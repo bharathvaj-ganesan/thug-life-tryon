@@ -1,0 +1,74 @@
+body {
+    background: white;
+}
+
+.container {
+    margin-top: 5%;
+    overflow: hidden;
+    /* background: linear-gradient(red, yellow, green); */
+}
+
+.wrapper_four {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    /* height: 80vh; */
+}
+
+iframe {
+    background: black;
+    width: 100%;
+    height: auto;
+    overflow: hidden !important;
+    border: none;
+    margin: 5%;
+    cursor: pointer;
+}
+
+#more_frames {
+    padding: 10px;
+    position: absolute;
+    bottom: 30%;
+    left: 46%;
+    color: white;
+    background-color: #428BCA;
+    border: 0;
+    box-shadow: 0 5;
+    border-radius: 25px;
+    transition: all 0.12s linear 0s !important;
+    cursor: pointer;
+}
+
+.btn_stack {
+    display: block;
+    margin-left: 45%;
+    margin-top: 10px;
+}
+
+.btn_stack button {
+    padding: 5px 10px;
+    border-radius: 50%;
+    background-color: #428BCA;
+    cursor: pointer;
+    border: 0;
+    color: white;
+}
+
+.view_frame {
+    padding: 5px 10px;
+    display: block;
+    margin: 0 auto;
+    background-color: #428BCA;
+    cursor: pointer;
+    border: 0;
+    color: white;
+}

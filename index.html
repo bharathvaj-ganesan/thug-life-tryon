@@ -1,0 +1,68 @@
+<!-- <!DOCTYPE html> -->
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+	<link rel="stylesheet" type="text/css" media="screen" href="menu/css/simple_menu.css">
+	<!--JS FILES -->
+	<script src="js/jquery.tools.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/brfv4_examples_theme.css">
+	<script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+	<title>OIC</title>
+
+	<script src="js/libs/createjs/preloadjs.min.js"></script>
+	<script src="js/thugLife.js"></script>
+	<link rel="stylesheet" type="text/css" media="screen" href="css/ui.css">
+
+	<script>
+		window.onload = brfv4Example.start(2); //see js/BRFv4Demo.js
+	</script>
+
+</head>
+
+<body>
+	<nav class="container" id="selectBtn">
+
+		<a class="buttons" tooltip="Share" href="#"></a>
+
+	</nav>
+
+	<div id="_wrapper" class="wrapper" style="background: #00bcd4;">
+
+		<div id="_content" class="main_content">
+			<h1 style="color:#fff">Thug Life Mirror</h1>
+			<video id="_webcam" playsinline></video>
+			<canvas id="_imageData"></canvas>
+			<canvas id="_faceSub"></canvas>
+			<canvas id="_t3d"></canvas>
+			<canvas id="_f3d"></canvas>
+			<canvas id="_drawing"></canvas>
+			<div id="_stats"></div>
+			<div id="_progressBar"></div>
+
+
+		</div>
+
+		<!-- <div id="_subline"></div> -->
+
+	</div>
+
+
+
+	<div id="_settingsRight"></div>
+
+	<style>
+		#_webcam:-webkit-full-screen {
+			width: 100%;
+			height: 100%;
+		}
+	</style>
+
+	<script>
+
+	</script>
+</body>
+
+</html>
